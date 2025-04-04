@@ -5,7 +5,7 @@ A USD/ZAR prediction model is designed to forecast the exchange rate between the
 
 1. **Recurrent Neural Networks (RNNs** : RNNs are a type of neural network designed to work with sequential data, such as time series. Unlike traditional feedforward networks, RNNs use loops to pass information from one step of the sequence to the next. This feature allows them to maintain a form of memory.
 
-![RNN Network](rnn_orgi.jpg)
+![RNN Network](images/rnn_orig.png)
 
 3. **Long Short-Term Memory (LSTM) Networks** : LSTMs are a special type of RNN designed to overcome the limitations of standard RNNs. They incorporate memory cells and gating mechanisms (input, forget, and output gates) that allow them to selectively retain or discard information over longer periods. This makes them highly effective for modeling long-term dependencies in time series data.
 
