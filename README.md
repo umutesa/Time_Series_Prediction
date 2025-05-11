@@ -29,16 +29,16 @@ We divided the dataset into two portions: 80% was allocated for training the mod
   - Input layer flattened from time windows
   - ReLU activations, dropout regularization 
 
-3. **Recurrent Neural Networks (RNNs)** : RNNs are a type of neural network designed to work with sequential data, such as time series. Unlike traditional feedforward networks, RNNs use loops to pass information from one step of the sequence to the next. This feature allows them to maintain a form of memory.
+2. **Recurrent Neural Networks (RNNs)** : RNNs are a type of neural network designed to work with sequential data, such as time series. Unlike traditional feedforward networks, RNNs use loops to pass information from one step of the sequence to the next. This feature allows them to maintain a form of memory.
   - Simple RNN layers capturing sequential order
   - Prone to vanishing gradient in long sequences
 
-5. **Long Short-Term Memory (LSTM) Networks** : LSTMs are a special type of RNN designed to overcome the limitations of standard RNNs. They incorporate memory cells and gating mechanisms (input, forget, and output gates) that allow them to selectively retain or discard information over longer periods. This makes them highly effective for modeling long-term dependencies in time series data.
+3. **Long Short-Term Memory (LSTM) Networks** : LSTMs are a special type of RNN designed to overcome the limitations of standard RNNs. They incorporate memory cells and gating mechanisms (input, forget, and output gates) that allow them to selectively retain or discard information over longer periods. This makes them highly effective for modeling long-term dependencies in time series data.
   - Advanced recurrent unit with forget, input, and output gates
   - Preserves long-term dependencies through cell states
 
 
-7. **Gated Recurrent Units (GRUs)** : GRUs are a simplified version of LSTMs that use fewer parameters while maintaining a similar level of performance. They combine the input and forget gates into a single update gate and eliminate the output gate altogether. This simplification often makes GRUs computationally more efficient than LSTMs.
+4. **Gated Recurrent Units (GRUs)** : GRUs are a simplified version of LSTMs that use fewer parameters while maintaining a similar level of performance. They combine the input and forget gates into a single update gate and eliminate the output gate altogether. This simplification often makes GRUs computationally more efficient than LSTMs.
   - Efficient alternative to LSTM
   - Merges memory and gating into a simpler structure
 
