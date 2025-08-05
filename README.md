@@ -25,7 +25,7 @@ We divided the dataset into two portions: 80% was allocated for training the mod
 
 ## Objectives
 
-Objectiv 1 : Forecast the USD/ZAR exchange rate using past values and time-lagged features. Objective 2 : Compare and evaluate model performance across ANN, RNN, LSTM, and GRU architectures.
+Objective 1 : Forecast the USD/ZAR exchange rate using past values and time-lagged features. Objective 2 : Compare and evaluate model performance across ANN, RNN, LSTM, and GRU architectures.
 
 **Artificial Neural Networks (ANNs)**: ANNs are neural networks inspired by the human brain that consist of layers of interconnected nodes (neurons) designed to process data in a feed forward manner and identify patterns. ANNs adjust their weights during training through backpropagation and gradient descent to minimize errors, enabling accurate predictions on new data.
   - Feed-forward multilayer perceptron (MLP)
