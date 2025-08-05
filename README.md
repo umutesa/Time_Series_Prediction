@@ -3,6 +3,9 @@
 
 A USD/ZAR prediction model is designed to forecast the exchange rate between the US Dollar (USD) and the South African Rand (ZAR) using deep learning models. The focus is comparing the following deep neural network models: Artficial Neural Network (ANNs) , Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, and Gated Recurrent Units (GRUs). This project will systematically evaluate the performance of these algorithms, carefully analyzing their capabilities, strengths, and weaknesses in the context of financial time series forecasting. This involves assessing their ability to capture temporal dependencies, manage long-term relationships in sequential data, and handle the inherent complexities of exchange rate prediction, such as volatility and non-linear patterns. 
 
+<img width="1005" height="706" alt="image" src="https://github.com/user-attachments/assets/6a350a59-4fe9-47b4-a241-2c191281d557" />
+
+
 ### About the Dataset
 
 The Yahoo Finance dataset contains historical stock market data collected over several years. It is particularly valuable for conducting trend analysis, exploring correlation relationships, and building predictive models. For our analysis, we focus specifically on the closing price.
