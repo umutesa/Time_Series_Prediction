@@ -9,12 +9,13 @@ A USD/ZAR prediction model is designed to forecast the exchange rate between the
 ### About the Dataset
 
 The Yahoo Finance dataset contains historical stock market data collected over several years. It is particularly valuable for conducting trend analysis, exploring correlation relationships, and building predictive models. For our analysis, we focus specifically on the closing price.
-##### **Attributes**:
-- **Date**: The date when the stock market data was recorded.
-- **Open**: The opening price of the stock on that particular date.
-- **High**: The highest price the stock reached during the trading day.
-- **Low**: The lowest price the stock dropped to during the trading day.
-- **Close**: The closing price of the stock on the same date.
+
+##### Attributes :
+**Date**: The date when the stock market data was recorded.
+**Open**: The opening price of the stock on that particular date.
+**High**: The highest price the stock reached during the trading day.
+**Low**: The lowest price the stock dropped to during the trading day.
+**Close**: The closing price of the stock on the same date.
 
 **License**:
 This dataset is sourced from Yahoo Finance and is intended for analytical purposes. Please refer to Yahoo Finance's terms of use for detailed information regarding data usage and licensing.
@@ -24,24 +25,23 @@ We divided the dataset into two portions: 80% was allocated for training the mod
 
 ## Objectives
 
-- Forecast the USD/ZAR exchange rate using past values and time-lagged features.
-- Compare and evaluate model performance across ANN, RNN, LSTM, and GRU architectures.
+Objectiv 1 : Forecast the USD/ZAR exchange rate using past values and time-lagged features. Objective 2 : Compare and evaluate model performance across ANN, RNN, LSTM, and GRU architectures.
 
-1. **Artificial Neural Networks (ANNs)**: ANNs are neural networks inspired by the human brain that consist of layers of interconnected nodes (neurons) designed to process data in a feed forward manner and identify patterns. ANNs adjust their weights during training through backpropagation and gradient descent to minimize errors, enabling accurate predictions on new data.
+**Artificial Neural Networks (ANNs)**: ANNs are neural networks inspired by the human brain that consist of layers of interconnected nodes (neurons) designed to process data in a feed forward manner and identify patterns. ANNs adjust their weights during training through backpropagation and gradient descent to minimize errors, enabling accurate predictions on new data.
   - Feed-forward multilayer perceptron (MLP)
   - Input layer flattened from time windows
   - ReLU activations, dropout regularization 
 
-2. **Recurrent Neural Networks (RNNs)** : RNNs are a type of neural network designed to work with sequential data, such as time series. Unlike traditional feedforward networks, RNNs use loops to pass information from one step of the sequence to the next. This feature allows them to maintain a form of memory.
+**Recurrent Neural Networks (RNNs)** : RNNs are a type of neural network designed to work with sequential data, such as time series. Unlike traditional feedforward networks, RNNs use loops to pass information from one step of the sequence to the next. This feature allows them to maintain a form of memory.
   - Simple RNN layers capturing sequential order
   - Prone to vanishing gradient in long sequences
 
-3. **Long Short-Term Memory (LSTM) Networks** : LSTMs are a special type of RNN designed to overcome the limitations of standard RNNs. They incorporate memory cells and gating mechanisms (input, forget, and output gates) that allow them to selectively retain or discard information over longer periods. This makes them highly effective for modeling long-term dependencies in time series data.
+**Long Short-Term Memory (LSTM) Networks** : LSTMs are a special type of RNN designed to overcome the limitations of standard RNNs. They incorporate memory cells and gating mechanisms (input, forget, and output gates) that allow them to selectively retain or discard information over longer periods. This makes them highly effective for modeling long-term dependencies in time series data.
   - Advanced recurrent unit with forget, input, and output gates
   - Preserves long-term dependencies through cell states
 
 
-4. **Gated Recurrent Units (GRUs)** : GRUs are a simplified version of LSTMs that use fewer parameters while maintaining a similar level of performance. They combine the input and forget gates into a single update gate and eliminate the output gate altogether. This simplification often makes GRUs computationally more efficient than LSTMs.
+**Gated Recurrent Units (GRUs)** : GRUs are a simplified version of LSTMs that use fewer parameters while maintaining a similar level of performance. They combine the input and forget gates into a single update gate and eliminate the output gate altogether. This simplification often makes GRUs computationally more efficient than LSTMs.
   - Efficient alternative to LSTM
   - Merges memory and gating into a simpler structure
 
